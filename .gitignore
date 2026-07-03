@@ -1,0 +1,32 @@
+# Dependencies / builds
+node_modules/
+dist/
+build/
+__pycache__/
+*.pyc
+*.egg-info/
+.venv/
+venv/
+
+# Documents — copyrighted references, internal reports, IP material (never publish)
+*.pdf
+*.docx
+*.pptx
+references/
+MPAW_*
+patent_motorbike_analysis.py
+generate_docs.py
+generate_roadmap.py
+make_docs.py
+build_docs.py
+
+# Generated outputs
+graphify-out/
+*.log
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+*.swp
+.~lock.*

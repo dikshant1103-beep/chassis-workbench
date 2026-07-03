@@ -1,0 +1,19 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 200
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+    steer_effort_controller:
+      type: forward_command_controller/ForwardCommandController
+    drive_effort_controller:
+      type: forward_command_controller/ForwardCommandController
+
+steer_effort_controller:
+  ros__parameters:
+    joints: [steering_joint]
+    interface_name: effort
+
+drive_effort_controller:
+  ros__parameters:
+    joints: [rear_axle]
+    interface_name: effort
